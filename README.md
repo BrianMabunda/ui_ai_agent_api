@@ -38,16 +38,9 @@ The easiest way to run the server is using Docker Compose:
 bash
 ```
 docker compose up --build
-Use code with caution.
+
 ```
 
-The API will now be live at: http://localhost:7860
-
-4. Run with Docker (The Fast Way)
-The easiest way to run the server is using Docker Compose:
-bash
-docker compose up --build
-Use code with caution.
 
 The API will now be live at: http://localhost:7860
 
@@ -58,7 +51,7 @@ Build the image:
 bash
 ```
 docker build -t ui-agent-api .
-Use code with caution.
+
 ```
 
 Run the container:
